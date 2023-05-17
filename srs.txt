@@ -1,0 +1,28 @@
+Functional Requirements:
+
+2.1 User Management
+The system provides user registration and authentication functionality.
+
+Users able to create accounts and log in using their credentials.
+The system support different user roles, such as administrators, project managers, and team members.
+
+2.2 Project Creation and Management
+Project able to create new projects and define project details (e.g., project name, start date, end date, description)
+Projects is unique identifier and assigned to specific teams.
+project managers have the ability to update project details and archive completed projects.
+
+2.3 Task Management
+project managers able to create tasks within projects, assign them to team members, and set due dates.
+
+Tasks have attributes such as task name, description, priority, and status.
+Team members shall be able to update the status of assigned tasks, mark them as completed, and add comments or attachments.
+
+2.4 Collaboration and Communication
+
+The system shall facilitate communication and collaboration among project team members.
+
+Users shall be able to exchange messages, comments, and files related to tasks or projects.
+
+Notifications shall be sent to users for task assignments, updates, and deadlines.
+
+

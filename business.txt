@@ -1,0 +1,37 @@
+Business Entities and business Operation:
+
+Employee Management system is developed for  the Organasation to maintain their projects.
+Business entities are users who uses the system and organisation
+
+Business Entities are :
+
+user :
+ users are the user who use the System. User login the credential and maintain ther project.
+
+Empoyees:
+Empoyee of the organisation
+
+Business Operation:
+ Business operations are
+
+
+
+User Table:
+user_id: Primary Key
+username: Unique, Not Null
+password: Not Null
+email: Unique, Not Null
+role: Not Null
+
+Project Table:
+project_id: Primary Key
+project_name: Not Null
+start_date: Not Null
+end_date: Not Null
+description: Not Null
+
+Task Table:
+task_id: Primary Key
+project_id: Foreign Key referencing Project Table
+task_name: Not Null
+assigned_to: Foreign Key referencing User Table
